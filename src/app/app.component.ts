@@ -20,6 +20,7 @@ export class AppComponent {
   }
   submitEvent() {
     this.googleAnalyticsEventsService.emitEvent("testCategory", "testAction", "testLabel", 10);
+    console.log('testing working');
   }
 
 }
